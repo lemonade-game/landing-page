@@ -43,6 +43,7 @@ export default function Homepage() {
       <div className="md:flex items-center my-16 items-center justify-center">
         {["common", "epic", "legendary"].map((name, i) => (
           <Image
+            key={name}
             src={`/images/stand-${i + 1}.png`}
             width={300}
             height={300}

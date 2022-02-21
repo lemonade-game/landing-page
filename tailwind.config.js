@@ -4,7 +4,6 @@ module.exports = {
     "./src/features/**/*.{jsx, js}",
     "./src/ui/**/*.{jsx, js}",
   ],
-  darkMode: false, // or 'media' or 'class'
   important: true,
   safelist: [
     {

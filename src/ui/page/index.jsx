@@ -10,12 +10,18 @@ export default function Page({ children }) {
             <h3 className="mt-8">Join us</h3>
             <ul>
               <li>
-                <a className="text-xl" href="https://whitepaper.lemonade.game">
+                <a
+                  className="text-xl"
+                  target="_blank"
+                  href="https://whitepaper.lemonade.game">
                   Whitepaper
                 </a>
               </li>
               <li>
-                <a className="text-xl" href="https://discord.gg/yUMmHZtvCe">
+                <a
+                  className="text-xl"
+                  target="_blank"
+                  href="https://discord.gg/yUMmHZtvCe">
                   Discord
                 </a>
               </li>

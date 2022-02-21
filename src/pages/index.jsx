@@ -25,7 +25,7 @@ export default function Homepage() {
             When staked, these stands produce $Lemonade, which can be bought and
             swapped on TraderJoe, just like and Ethereum and Doge, because they
             are real magic internet money (MiM) and they hold a value based on
-            the same economics the govern your country&pos;s currency.
+            the same economics the govern your country&#39;s currency.
           </p>
 
           <p>

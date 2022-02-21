@@ -30,8 +30,8 @@ export default function Homepage() {
           </p>
 
           <p>
-            Lemonade stands stats are "rolled" at the time of minting and can be{" "}
-            <span className="text-common">Common</span>,{" "}
+            Lemonade stands stats are &quot;rolled&quot; at the time of minting
+            and can be <span className="text-common">Common</span>,{" "}
             <span className="text-epic">Epic</span>, or{" "}
             <span className="text-legendary">Legendary</span>! The rarity of the
             stands determine how much $Lemonade are produced, along with other

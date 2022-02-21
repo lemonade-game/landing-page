@@ -41,10 +41,15 @@ export default function Paragraph({ children }) {
     }, "");
   }
 
+  const __html = onlyText(children)
+    .replace(/\'/g, "&#39;")
+    .replace(/\"/g, "&quot;");
+
+  console.dir(__html);
   return (
     <p
       dangerouslySetInnerHTML={{
-        __html: onlyText(children).replace("'", "&#39;").replace('"', "&quot;"),
+        __html,
       }}></p>
   );
 }

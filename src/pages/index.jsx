@@ -4,10 +4,8 @@ import Page from "@/ui/page";
 export default function Homepage() {
   return (
     <Page>
-      <h1>Welcome to the Lemonade Game</h1>
-
       <div className="md:flex items-center my-16">
-        <div>
+        <div className="md:w-2/3 text-center">
           <Image
             width={400}
             height={400}
@@ -16,6 +14,7 @@ export default function Homepage() {
           />
         </div>
         <div>
+          <h1>Welcome to the Lemonade Game</h1>
           <p>
             Lemonade is played by buying and staking Lemonade stands to
             locations around a fantasy town. The stands are represented on the
@@ -40,7 +39,7 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="md:flex items-center my-16 items-center justify-center">
+      <div className="md:flex items-center my-16 items-center justify-around">
         {["common", "epic", "legendary"].map((name, i) => (
           <Image
             key={name}

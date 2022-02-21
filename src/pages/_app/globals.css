@@ -19,8 +19,8 @@ a {
 }
 
 h1 {
-  @apply text-6xl text-center prose-lg;
-  @apply md:text-8xl text-left md:prose-xl;
+  @apply text-5xl text-center prose-lg;
+  @apply md:text-6xl text-left md:prose-xl;
   @apply text-white font-black;
   @apply tracking-wide;
   @apply my-2;

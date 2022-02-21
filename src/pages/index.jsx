@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Page from "@/ui/page";
 
 export default function Homepage() {
@@ -7,7 +8,12 @@ export default function Homepage() {
 
       <div className="md:flex items-center my-16">
         <div>
-          <img width={400} src="/images/logo.png" alt="lemonade game logo" />
+          <Image
+            width={400}
+            height={400}
+            src="/images/logo.png"
+            alt="lemonade game logo"
+          />
         </div>
         <div>
           <p>
@@ -36,9 +42,10 @@ export default function Homepage() {
 
       <div className="md:flex items-center my-16 items-center justify-center">
         {["common", "epic", "legendary"].map((name, i) => (
-          <img
+          <Image
             src={`/images/stand-${i + 1}.png`}
             width={300}
+            height={300}
             alt={`${name} stand`}
           />
         ))}

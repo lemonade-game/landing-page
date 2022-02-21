@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  @apply antialiased;
+}
+
+body {
+  @apply bg-gray-800;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  @apply prose prose-invert;
+}
+
 h1 {
-  @apply text-4xl text-gray-800 tracking-wider leading-4;
+  @apply text-6xl text-center prose-lg;
+  @apply md:text-8xl text-left md:prose-xl;
+  @apply text-white font-black;
+  @apply tracking-wide;
+  @apply my-2;
+}
+
+h3 {
+  @apply text-2xl text-center prose-lg;
+  @apply md:text-4xl text-left md:prose-xl;
+  @apply text-white font-black;
+  @apply tracking-wide;
+  @apply my-2;
+}
+
+p {
+  @apply leading-relaxed tracking-wider;
+  @apply my-4 px-4;
 }

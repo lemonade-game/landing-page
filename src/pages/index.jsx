@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Page from "@/ui/page";
+import P from "@/ui/paragraph";
 
 export default function Homepage() {
   return (
@@ -15,27 +16,27 @@ export default function Homepage() {
         </div>
         <div>
           <h1>Welcome to the Lemonade Game</h1>
-          <p>
+          <P>
             Lemonade is played by buying and staking Lemonade stands to
             locations around a fantasy town. The stands are represented on the
             Avalanche blockchain by NFTs.
-          </p>
+          </P>
 
-          <p>
+          <P>
             When staked, these stands produce $Lemonade, which can be bought and
             swapped on TraderJoe, just like and Ethereum and Doge, because they
             are real magic internet money (MiM) and they hold a value based on
-            the same economics the govern your country&#39;s currency.
-          </p>
+            the same economics the govern your country's currency.
+          </P>
 
-          <p>
-            Lemonade stands stats are &quot;rolled&quot; at the time of minting
-            and can be <span className="text-common">Common</span>,{" "}
+          <P>
+            Lemonade stands stats are "rolled" at the time of minting and can be{" "}
+            <span className="text-common">Common</span>,{" "}
             <span className="text-epic">Epic</span>, or{" "}
             <span className="text-legendary">Legendary</span>! The rarity of the
             stands determine how much $Lemonade are produced, along with other
             factors like town location, upgrades, and worker fatigue.
-          </p>
+          </P>
         </div>
       </div>
 

@@ -19,22 +19,23 @@ a {
 }
 
 h1 {
-  @apply text-5xl text-center prose-lg;
-  @apply md:text-6xl text-left md:prose-xl;
+  @apply text-6xl text-center;
+  @apply md:text-7xl text-left;
   @apply text-white font-black;
   @apply tracking-wide;
   @apply my-2;
 }
 
 h3 {
-  @apply text-2xl text-center prose-lg;
-  @apply md:text-4xl text-left md:prose-xl;
+  @apply text-center text-2xl;
+  @apply text-left md:text-4xl;
   @apply text-white font-black;
   @apply tracking-wide;
   @apply my-2;
 }
 
 p {
+  @apply prose-2xl;
   @apply leading-relaxed tracking-wider;
   @apply my-4 px-4;
 }

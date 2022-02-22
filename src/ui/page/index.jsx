@@ -89,7 +89,7 @@ export default function Page({ children }) {
             <ul>
               <li>
                 <a
-                  className="text-xl"
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
                   target="_blank"
                   href="https://whitepaper.lemonade.game">
                   Whitepaper
@@ -97,7 +97,7 @@ export default function Page({ children }) {
               </li>
               <li>
                 <a
-                  className="text-xl"
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
                   target="_blank"
                   href="https://discord.gg/yUMmHZtvCe">
                   Discord
@@ -111,7 +111,9 @@ export default function Page({ children }) {
             <ul>
               <li className="text-xl prose prose-invert">Pixel Artist</li>
               <li className="text-xl prose prose-invert">Community Manager</li>
-              <li className="text-xl prose prose-invert">Apply via Discord!</li>
+              <li className="text-xl prose prose-invert italic font-bold">
+                Apply via Discord!
+              </li>
             </ul>
           </div>
         </div>

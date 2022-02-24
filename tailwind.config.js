@@ -14,9 +14,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        common: "#F5BE0B",
+        common: "#80766B",
+        uncommon: "#10B913",
         epic: "#B65CF6",
-        legendary: "#a5631c",
+        legendary: "#F5BE0B",
         purple: {
           DEFAULT: "#B65CF6",
           50: "#FFFFFF",

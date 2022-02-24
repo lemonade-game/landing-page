@@ -112,7 +112,14 @@ export default function Page({ children }) {
               <li className="text-xl prose prose-invert">Pixel Artist</li>
               <li className="text-xl prose prose-invert">Community Manager</li>
               <li className="text-xl prose prose-invert italic font-bold">
-                Apply via Discord!
+                Apply via{" "}
+                <a
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
+                  target="_blank"
+                  href="https://discord.gg/yUMmHZtvCe">
+                  Discord
+                </a>
+                !
               </li>
             </ul>
           </div>

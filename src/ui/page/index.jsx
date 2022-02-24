@@ -116,6 +116,7 @@ export default function Page({ children }) {
                 <a
                   className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://discord.gg/yUMmHZtvCe">
                   Discord
                 </a>

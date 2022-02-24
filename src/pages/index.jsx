@@ -77,7 +77,7 @@ export default function Homepage() {
         ))}
       </div>
 
-      <div className="">
+      <div className="my-16">
         <h3>Lemonade Stand Artwork</h3>
         <p>
           Note, the final artwork will be high quality pixel art, we are
@@ -90,6 +90,54 @@ export default function Homepage() {
             Discord
           </Link>{" "}
           and let's talk turkey!
+        </p>
+      </div>
+
+      <div className="my-16">
+        <h3>The Freezer</h3>
+
+        <p>
+          When $Lemonade is produced, it can be claimed, in which case it
+          automagically, stakes to the Freezer to compound further.
+        </p>
+
+        <p>
+          You can withdraw your frozen $Lemonade whenever you wish, but there is
+          a deflationary mechanism built it, where a portion of your thaw will
+          be spoiled and lost based on how fast you defrost it.
+        </p>
+
+        <p>
+          That spoiled lemonade will be burnt to put addional buy pressure on
+          the token. Deflationary mechanics are important to affect the price of
+          $Lemonade. In it's simplest form, $Lemonade is an inflationary token.
+          So, we balance that inflation with deflationary mechanics.
+        </p>
+      </div>
+
+      <div className="my-16">
+        <h3>Initial Game Offering</h3>
+
+        <p>
+          People who get into something good before the masses come rollling in
+          tend to do the best in any type of market. To reward our early
+          adopters, the first minting will be available via whitelist, and will
+          get to play test the game early.
+        </p>
+
+        <p>
+          During the IGA, you will be able to mint lemonade stands for{" "}
+          {process.env.NEXT_PUBLIC_GEN_0_MINT_PRICE} AVAX and each stand will be
+          randomly rolled using a process called "provable fairness". Those
+          rolls will determine the rarity, location, and worker for your newly
+          minted stand!
+        </p>
+
+        <p>
+          Those stands in turn will affect the amount of $Lemonade produced per
+          miniute. This will ultimately support a healthy secondary market since
+          each stand is highly variable and thus unique. Get enough good rolls
+          on a stand and it's value will soar on the market!
         </p>
       </div>
     </Page>

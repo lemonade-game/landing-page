@@ -5,7 +5,7 @@ export default function Link({ children, href, newWindow = false, ...rest }) {
   return (
     <NextLink {...{ href }}>
       <a {...(newWindow ? newWindowOptions : {})} {...rest}>
-        Discord
+        {children}
       </a>
     </NextLink>
   );

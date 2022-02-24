@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "@/ui/link";
 
 export default function Page({ children }) {
   return (
@@ -88,20 +89,20 @@ export default function Page({ children }) {
             <h3 className="mt-8">Join us</h3>
             <ul>
               <li>
-                <a
+                <Link
+                  newWindow
                   className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
-                  target="_blank"
                   href="https://whitepaper.lemonade.game">
                   Whitepaper
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
+                  newWindow
                   className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
-                  target="_blank"
                   href="https://discord.gg/yUMmHZtvCe">
                   Discord
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -113,13 +114,12 @@ export default function Page({ children }) {
               <li className="text-xl prose prose-invert">Community Manager</li>
               <li className="text-xl prose prose-invert italic font-bold">
                 Apply via{" "}
-                <a
+                <Link
+                  newWindow
                   className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
-                  target="_blank"
-                  rel="noreferrer"
                   href="https://discord.gg/yUMmHZtvCe">
                   Discord
-                </a>
+                </Link>
                 !
               </li>
             </ul>

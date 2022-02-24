@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Page from "@/ui/page";
+import Link from "@/ui/link";
 
 export default function Homepage() {
   return (
@@ -82,12 +83,12 @@ export default function Homepage() {
           Note, the final artwork will be high quality pixel art, we are
           currently <strong>seeking a pixel artist to join the team</strong>! If
           that is you jump in our{" "}
-          <a
+          <Link
+            newWindow
             className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
-            target="_blank"
             href="https://discord.gg/yUMmHZtvCe">
             Discord
-          </a>{" "}
+          </Link>{" "}
           and let's talk turkey!
         </p>
       </div>

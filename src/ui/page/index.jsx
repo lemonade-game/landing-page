@@ -100,6 +100,14 @@ export default function Page({ children }) {
                 <Link
                   newWindow
                   className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
+                  href="https://docs.lemonade.game">
+                  Docs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  newWindow
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
                   href="https://discord.gg/yUMmHZtvCe">
                   Discord
                 </Link>

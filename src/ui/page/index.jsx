@@ -81,8 +81,8 @@ export default function Page({ children }) {
       </Head>
 
       <header></header>
-      <main className="mx-auto mt-16 container md:px-16">{children}</main>
-      <footer className="mx-auto mt-16 container md:px-16">
+      <main className="container mx-auto mt-16 md:px-16">{children}</main>
+      <footer className="container mx-auto mt-16 md:px-16">
         <hr />
         <div className="flex items-center justify-around">
           <div>
@@ -104,6 +104,12 @@ export default function Page({ children }) {
                   Docs
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="mt-8">Community</h3>
+            <ul>
               <li>
                 <Link
                   newWindow
@@ -112,15 +118,30 @@ export default function Page({ children }) {
                   Discord
                 </Link>
               </li>
+              <li>
+                <Link
+                  newWindow
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
+                  href="https://twitter.com/0xlemonadegame">
+                  Twitter
+                </Link>
+              </li>
+              <li>
+                <Link
+                  newWindow
+                  className="text-xl border-b border-white hover:border-blue-500 hover:text-blue-500"
+                  href="https://www.instagram.com/0xlemonade">
+                  Instagram
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="mt-8">We are hiring</h3>
             <ul>
-              <li className="text-xl prose prose-invert">Pixel Artist</li>
               <li className="text-xl prose prose-invert">Community Manager</li>
-              <li className="text-xl prose prose-invert italic font-bold">
+              <li className="text-xl italic font-bold prose prose-invert">
                 Apply via{" "}
                 <Link
                   newWindow

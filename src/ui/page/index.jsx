@@ -81,10 +81,12 @@ export default function Page({ children }) {
       </Head>
 
       <header></header>
-      <main className="container mx-auto mt-16 md:px-16">{children}</main>
+      <main className="oveflow-x-hidden container mx-auto mt-16 md:px-16">
+        {children}
+      </main>
       <footer className="container mx-auto mt-16 md:px-16">
         <hr />
-        <div className="flex items-center justify-around">
+        <div className="text-center md:text-left md:flex items-center justify-around">
           <div>
             <h3 className="mt-8">Join us</h3>
             <ul>

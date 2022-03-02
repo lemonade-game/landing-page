@@ -6,11 +6,11 @@ export default function Homepage() {
   return (
     <Page>
       <div className="mx-16">
-        <h1 className="text-9xl">Lemonade!</h1>
+        <h1 className="md:text-9xl text-5xl text-center">Lemonade!</h1>
       </div>
 
-      <div className="my-16 md:flex">
-        <div className="flex items-center justify-center md:w-2/3">
+      <div className="my-8 md:my-12 w-full md:flex">
+        <div className="my-12 flex items-center justify-center md:w-2/3">
           <Image
             width={300}
             height={300}
@@ -18,7 +18,8 @@ export default function Homepage() {
             alt="lemonade game logo"
           />
         </div>
-        <div>
+
+        <div className="w-full ">
           <p>
             <strong>Lemonade!</strong> is played by buying and staking{" "}
             <strong>Lemonade stands (NFTs)</strong> to locations around a
@@ -71,14 +72,18 @@ export default function Homepage() {
       </div>
 
       <div className="items-center justify-around my-16 md:flex">
+        <h3>Some concept art</h3>
         {[1, 2].map((name, i) => (
-          <Image
+          <div
             key={name}
-            src={`/images/concept/${i + 1}.png`}
-            width={300}
-            height={300}
-            alt={`${name} stand`}
-          />
+            className="my-12 flex items-center justify-center md:w-2/3">
+            <Image
+              src={`/images/concept/${i + 1}.png`}
+              width={300}
+              height={300}
+              alt={`${name} stand`}
+            />
+          </div>
         ))}
       </div>
 
@@ -86,8 +91,8 @@ export default function Homepage() {
 
       <div className="my-16">
         <h3>The Freezer</h3>
-        <div className="flex">
-          <div>
+        <div className="md:flex">
+          <div className="my-12 flex items-center justify-center md:w-2/3">
             <Image
               src="/images/concept/freezer-lg.png"
               width={300}

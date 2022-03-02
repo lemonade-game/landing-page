@@ -9,8 +9,8 @@ export default function Homepage() {
         <h1 className="text-9xl">Lemonade!</h1>
       </div>
 
-      <div className="md:flex my-16">
-        <div className="md:w-2/3  flex justify-center items-center">
+      <div className="my-16 md:flex">
+        <div className="flex items-center justify-center md:w-2/3">
           <Image
             width={300}
             height={300}
@@ -27,7 +27,7 @@ export default function Homepage() {
           </p>
 
           <p>
-            When <span className="text-blue-600 font-medium">staked</span>,
+            When <span className="font-medium text-blue-600">staked</span>,
             these stands produce{" "}
             <span className="text-yellow-500">$Lemonade</span>, compounded daily
             at <span className="font-medium">1% for 365 days</span>!
@@ -44,12 +44,12 @@ export default function Homepage() {
       <div className="md:flex">
         <div>
           <p>
-            <strong>Lemonade</strong> stands stats are "rolled" at the time of
+            <strong>Lemonade</strong> stands stats are "rolled" at the time of{" "}
             <span className="text-green-500">minting</span> and can be{" "}
-            <span className="text-common font-bold">Common</span>,{" "}
-            <span className="text-uncommon font-bold">Unommon</span>,{" "}
-            <span className="text-epic font-bold">Epic</span>, or{" "}
-            <span className="text-legendary font-bold">Legendary</span>! The{" "}
+            <span className="font-bold text-common">Common</span>,{" "}
+            <span className="font-bold text-uncommon">Unommon</span>,{" "}
+            <span className="font-bold text-epic">Epic</span>, or{" "}
+            <span className="font-bold text-legendary">Legendary</span>! The{" "}
             <strong>rarity</strong> of the stands determine how much{" "}
             <strong>$Lemonade</strong> are produced, along with other factors
             like town location, upgrades, and worker fatigue.
@@ -61,16 +61,16 @@ export default function Homepage() {
             Each location will have an impact in $Lemonade production. Each will
             come with it's own artwork and become part of the NFT. Some
             locations we plan to launch with are{" "}
-            <span className="text-common font-bold">Junkyard</span>,{" "}
-            <span className="text-uncommon font-bold">Residential</span>,{" "}
-            <span className="text-epic font-bold">Park</span>,{" "}
-            <span className="text-legendary font-bold">Downtown</span>,{" "}
-            <span className="text-legendary font-bold">Mall</span> park.
+            <span className="font-bold text-common">Junkyard</span>,{" "}
+            <span className="font-bold text-uncommon">Residential</span>,{" "}
+            <span className="font-bold text-epic">Park</span>,{" "}
+            <span className="font-bold text-legendary">Downtown</span>,{" "}
+            <span className="font-bold text-legendary">Mall</span> park.
           </p>
         </div>
       </div>
 
-      <div className="md:flex items-center my-16 justify-around">
+      <div className="items-center justify-around my-16 md:flex">
         {[1, 2].map((name, i) => (
           <Image
             key={name}
